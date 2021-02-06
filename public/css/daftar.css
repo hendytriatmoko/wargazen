@@ -1,0 +1,141 @@
+body{
+	background-color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 30;
+    font-family: sans-serif;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+#daftar-jobseeker{
+	background-image: url(daftar1.jpg);
+	margin-bottom: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-position: center;
+	font-family: roboto;
+	height: 120vh;
+}
+#daftar-company{
+	background-image: url(daftar2.jpg);
+	margin-bottom: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-position: center;
+	font-family: roboto;
+	height: 110vh;
+}
+/*jumbotron*/
+.jumbotron{
+	background-image: url(awal1.png);
+	background-size: cover;
+	height: 770px;
+	text-align: center;
+}
+.jumbotron .display-4{
+	color: #fff;
+	font-family: roboto;
+	margin-top: 100px;
+
+}
+p{
+	color: #fff;
+	font-family: roboto;
+	font-size: 17px;
+}
+.jumbotron hr{
+	border-color: #17A2B8;
+	border-width: 4px;
+	width: 150px;
+}
+/*style slider*/
+.carousel-item{
+	height: 635px;
+}
+.carousel-item .display-4{
+	margin-top: -420px;
+}
+li{
+	text-align: center;
+	
+
+}
+
+/*daftar*/
+.login-box{
+	width: 320px;
+	height: 480px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 15%;
+	left: 38%;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px;
+	transition: translate(-50%, -50%);
+
+}
+h1 {
+	color: #17A2B8;
+	margin-top: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+
+}
+.enter{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -5%;
+	left: calc(93% - 50%);
+}
+.login-box p{
+	margin-bottom: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+.login-box input{
+	width: 100%;
+	margin-bottom:20px; 
+}
+.login-box input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50px;
+	font-weight: bold;
+	font-family: roboto;
+	background: #17A2B8;
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #3076FF;
+}
+.login-box a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+}
+.login-box a:hover{
+	color: #17A2B8;
+
+}
